@@ -83,14 +83,37 @@ word-wrap: break-word;
 /*image*/
 .image-container {
     position: relative;
-    width: 760px; 
+    align-items: center;
+    justify-content: center;
+    width: 1050px; 
     height: 200px; 
+}
+
+.image-container2 {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 500px; 
+    height: 300px; 
 }
 
 .overlay-text {
     position: absolute;
-    top: 13%;
+    top: 15%;
     left:10%;
+    transform: translate(-10%, -10%);
+    text-align: center;
+    color: white; 
+    font-size: 15px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 10%;
+    left:15%;
     transform: translate(-10%, -10%);
     text-align: center;
     color: white; 
@@ -102,14 +125,41 @@ word-wrap: break-word;
 
 .body-text {
     color: white; 
-    font-size: 8px; 
+    font-size: 11px; 
     font-family: Inter; 
     font-weight: 300; 
     word-wrap: break-word;
     text-align: justify;
     position: absolute;
-    bottom: 25%;
+    bottom: 1%;
     left:6%;
-    line-height: 13px;
-    width: 300px; 
+    line-height: 15px;
+    width: 350px; 
+}
+
+.body-text2 {
+    color: white; 
+    font-size: 11px; 
+    font-family: Inter; 
+    font-weight: 300; 
+    word-wrap: break-word;
+    text-align: justify;
+    position: absolute;
+    bottom: 50%;
+    left:12%;
+    line-height: 15px;
+    width: 350px; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1px; /* Adjust as needed */
+}
+
+/*button*/
+.circle-arrow-btn{
+    margin-left: 5px;
+    width:20px;
+    height:20px;
 }

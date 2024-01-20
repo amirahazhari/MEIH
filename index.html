@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Include Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -14,52 +14,80 @@
     <!-- Start Header -->
     <nav class="header navbar navbar-expand-lg">
         <div class="container-fluid">
-            <!--logo-->
-            <a class ="navbar-brand" href="#">
-            <img class="logo" src="assets/logo.png">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="assets/logo.png" alt="Logo">
             </a>
-              
-            <!--Title-->
-           <div class="header-text">MEIH Portal</div>
 
-             <!--search bar-->
-            <img class="search-icon" src="assets/iconamoon_search.png"> <!--search icon-->
-            <input class="search-bar search-text" type="search" placeholder="Search" aria-label="Search"> <!--search bar & text-->
-           </div>
+            <!-- Title -->
+            <div class="header-text">MEIH Portal</div>
 
-           <!--Icon ?!-->
-           <div style="width: 30px; height: 30px; position: relative">
-            <img style="width: 17px; height: 17px; right:35px; top: 11px; position: absolute;"src="assets/NEB Dashboard/Header/Sign In/Header/Exclude.png">
-            <img style="width: 17px; height: 17px; right:46px; top: 1 px; position: absolute;" src="assets/NEB Dashboard/Header/Sign In/Header/Exclude-1.png" />
+            <!-- Search bar -->
+            <div class="d-flex align-items-center ms-auto">
+                <img class="search-icon" src="assets/iconamoon_search.png" alt="Search Icon">
+                <input class="search-bar search-text form-control" type="search" placeholder="Search" aria-label="Search">
             </div>
+
+            <!-- Icons -->
+            <div style="width: 30px; height: 30px; position: relative">
+                <img style="width: 17px; height: 17px; right:35px; top: 11px; position: absolute;"src="assets/NEB Dashboard/Header/Sign In/Header/Exclude.png">
+                <img style="width: 17px; height: 17px; right:46px; top: 1 px; position: absolute;" src="assets/NEB Dashboard/Header/Sign In/Header/Exclude-1.png" />
             </div>
-         </div>
         </div>
     </nav>
     <!-- End  Nav bar -->
-    <!--Start content-->
-  
-        <div class="container" style="padding: 20px;">
-         <div class="row">
-             <div class="col-md-6">
-                    <div class="image-container">
-                        <img src="assets/Pic 1.png" class="img-fluid" alt="Image">
-                        <div class="overlay-text">Malaysia Energy Information Hub (MEIH) Portal</div>
-                        <div class="body-text">Welcome to the Malaysian Energy Information Hub (MEIH), the trusted source for comprehensive energy statistics in Malaysia. Managed by the Energy Commission (EC), we establish a centralised national energy database to support timely energy planning, provide data to stakeholders, and offer expertise in forecasting and feasibility studies. Our goal is to facilitate effective energy strategies and project implementation for a sustainable future. Join us as we drive transparency, accessibility, and collaboration in the energy sector.</div>
+
+    <!-- Start Content -->
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-4 offset-md-1">
+                <div class="image-container">
+                    <img src="assets/Pic 1.png" class="img-fluid" alt="Image">
+                    <div class="overlay-text">
+                        Malaysia Energy Information Hub (MEIH) Portal
+                        <img src="assets/arrow-circle-right-svgrepo-com 1.png" class="circle-arrow-btn">
+                    </div>
+                    <div class="body-text">
+                        Welcome to the Malaysian Energy Information Hub (MEIH), the trusted source for comprehensive energy statistics in Malaysia. Managed by the Energy Commission (EC), we establish a centralized national energy database to support timely energy planning, provide data to stakeholders, and offer expertise in forecasting and feasibility studies. Our goal is to facilitate effective energy strategies and project implementation for a sustainable future. Join us as we drive transparency, accessibility, and collaboration in the energy sector.
                     </div>
                 </div>
             </div>
-     </div>
-   
- <!--End of Content-->
-    
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <div class="row g-4">
+            <div class="col-md-4 offset-md-1">
+                <div class="image-container2">
+                    <img src="assets/Pic 2.png" class="img-fluid" alt="Image">
+                    <div class="overlay-text2">
+                        NEB Module
+                        <img src="assets/arrow-circle-right-svgrepo-com 1.png" class="circle-arrow-btn">
+                    </div>
+                    <div class="body-text2">
+                        Harness real-time data and advanced analytics to manage energy balances effectively. To gain comprehensive insights into energy consumption, production, and distribution, monitor renewable energy installations, and promote sustainable practices, please comply with data submission instructions. Take control of energy resources for a greener and more resilient future.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="image-container2">
+                    <img src="assets/Pic 3.png" class="img-fluid" alt="Image">
+                    <div class="overlay-text2">
+                        EnergyKidz
+                        <img src="assets/arrow-circle-right-svgrepo-com 1.png" class="circle-arrow-btn">
+                    </div>
+                    <div class="body-text2">
+                        Welcome to EnergyKids, the educational platform that brings energy information and awareness to young minds. Explore interactive resources, engaging content, and fun activities to learn about various energy sources, conservation practices, and the importance of sustainable energy for a brighter future.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Content -->
+
     <!-- Include Bootstrap JS and Popper.js (if needed) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
-
-    
-      </div>
-    </div>
-  </div>
