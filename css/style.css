@@ -1,0 +1,22 @@
+/*Custom Bootstrap header color*/
+.header-color{
+    background-color:#191C4D;
+}
+
+/*Custom Bootstrap search bar*/
+.search-bar{
+    background-color:#191C4D;
+    border-color:white;
+    border-radius: 1px;
+    width: 401px; 
+    height: 40px; 
+    padding-left: 16px; 
+    padding-right: 16px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    border-radius: 10px; 
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 10px; 
+    display: inline-flex
+}
